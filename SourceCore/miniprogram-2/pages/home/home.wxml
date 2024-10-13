@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<view class="imagesize">
+  <image src="/img/home-person.jpg" id="home-person"></image>
+</view>
+<view class="container">
+  <text>欢迎使用小优聊天树洞</text>
+  <text>点击下方chat</text>
+  <text>我会倾听你的心事</text>
+</view>
+<!-- <button bindtap="gotolist">点击我</button> -->

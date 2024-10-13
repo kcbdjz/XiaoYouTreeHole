@@ -1,0 +1,25 @@
+/* pages/home/home.wxss */
+ .imagesize{
+  display:flex;
+  justify-content: center;
+  /* border: 5px green solid; */
+  margin-top: 100rpx;
+ }
+ .imagesize image { 
+  width: 500rpx;
+  height: 500rpx;
+  /* border: 5px green solid; */
+   }
+  .container{
+    /* border: 5px green solid; */
+    height: 100rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container text{
+    text-align: center;
+    line-height: 70rpx ;
+    /* border: 2px green solid; */
+    font-family: 'STHupo';
+  }

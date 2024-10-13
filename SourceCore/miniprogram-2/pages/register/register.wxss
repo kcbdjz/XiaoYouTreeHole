@@ -1,0 +1,35 @@
+/* pages/register/register.wxss */
+.box{
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+  width: 250px;
+  height: 250px; 
+  margin-top: 200rpx;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  outline-style: none;
+    border: 1px solid #c0c4cc;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-family: "Microsoft soft";
+}
+button{
+  margin-top: 40px;
+  background-color: #539D73;
+}
+.zhuce{
+  font-size:x-large;
+  color: #539D73;
+}

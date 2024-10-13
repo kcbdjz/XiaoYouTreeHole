@@ -1,0 +1,24 @@
+<!--pages/database/database.wxml-->
+<view class="content">
+  <view class="left">
+    <block wx:for="{{list}}" wx:key="index">
+      <template is="item" data="{{...item}}" wx:if="{{index%2==0}}"></template>
+    </block>
+  </view>
+  <view class="right">
+    <block wx:for="{{list}}" wx:key="index">
+      <template is="item" data="{{...item}}" wx:if="{{index%2==1}}"></template>
+    </block>
+  </view>
+</view>
+<template name="item">
+  <view class="item">
+    <image class="item-img" src="{{cover_url}}" mode="widthFix"  bindtap='gotovideo' data-video="{{video_url}} "></image>
+    <view class="item-title-box">
+      <navigator url="url" class="item-title">{{title}}</navigator>
+    </view>
+    <view class="name">
+      <text class="name-title">{{up}}</text>
+    </view>
+  </view>
+</template>

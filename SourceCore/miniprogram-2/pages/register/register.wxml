@@ -1,0 +1,15 @@
+<!--pages/register/register.wxml-->
+<view class="box">
+ 
+ <view class="title">
+   <text class="zhuce">注 册</text>
+ </view>
+  
+ <view class="register">
+     <input type="text" bindinput="usernameInput" placeholder="输入账号"/>
+     <input type="text" bindinput="nameInput" placeholder="输入昵称"/>
+     <input type="password" bindinput="passwordInput" placeholder="设置密码"/>
+     <button disabled="{{jin}}" bindtap="post">注册并登录</button>
+ </view>
+  
+ </view>

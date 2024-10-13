@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<view class="box">
+ 
+ <view class="title">
+  <text class="denglu" >登 录</text>
+ </view>
+  
+ <view class="longin">
+   <input type="text" bindinput="usernameInput" placeholder="请输入用户名"/>
+   <input type="password" bindinput="passwordInput" placeholder="请输入密码"/>
+   <button disabled="{{jin}}" bindtap="post">登录</button>
+ </view>
+
+ <view class="register">
+  <navigator url="/pages/register/register" >没有账号？立即注册！</navigator>
+  </view>
+ </view>
+ 
+ 

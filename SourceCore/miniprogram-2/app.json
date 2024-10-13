@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/home/home",
+    "pages/chat/chat",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/video/video",
+    "pages/database/database"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小优树洞",
+    "navigationBarBackgroundColor": "#539D73"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "img/tabBar/home1.png",
+        "selectedIconPath": "img/tabBar/home2.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "chat",
+        "iconPath": "img/tabBar/chat1.png",
+        "selectedIconPath": "img/tabBar/chat2.png"
+      },
+      {
+        "pagePath": "pages/database/database",
+        "text": "database",
+        "iconPath": "img/tabBar/database1.png",
+        "selectedIconPath": "img/tabBar/database2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.5",
+      "provider": "wx069ba97219f66d99"
+    }
+  }
+}
