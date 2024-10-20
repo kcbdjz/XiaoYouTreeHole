@@ -2,7 +2,7 @@
 from http import HTTPStatus
 import dashscope
 
-dashscope.api_key = "sk-a682003967c249f2b2629734e3a48902"
+dashscope.api_key = ""
 
 
 def sample_sync_call(prompt_text):
